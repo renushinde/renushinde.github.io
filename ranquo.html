@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Random Quote Generator</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ranquo.css">
+	
+</head>
+<body>
+	<!-- <div class="container"> -->
+	<header>
+	<h2> Get Inspired </h2>
+	</header>
+	<div class="buttonContainer">
+	<button class="btn-btn-default" type="submit" id="newQuote"> New Quote</button>
+	<button class="btn-btn-default" type="submit" id="favQuote"> Remember this quote</button>
+	<button class="btn-btn-default" type="submit" id="showQuote"> Show my favorite quote</button>
+	</div>
+	<div class="container">
+	<div class="quotes">
+		<span class="quote">  <br></span>
+		<span class="author"> </span>
+	</div>
+    </div>
+    <!-- </div> -->
+   <ul class="message-board"></ul>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script> <!-- firebase CDN -->
+<script type="text/javascript" src="ranquo.js"></script>
+</body>
+</html>

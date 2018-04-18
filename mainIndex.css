@@ -1,0 +1,39 @@
+body{
+
+	background: #008489;
+	width: 395px;
+	padding-top: 50px;
+	margin: 0 auto;
+
+}
+.btn{
+  margin-bottom: 5px;
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+li{
+	list-style-type: none;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+h3 {
+	text-align: center;
+}
+.thumbnail{
+
+  margin-bottom: 5px;
+}
+.content{
+  padding-left: 30px;
+}
